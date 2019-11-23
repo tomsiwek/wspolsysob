@@ -1,0 +1,2 @@
+ERROR: No such file or directory on '/common/mpi/mpich'
+/var/spool/slurmd/job5297285/slurm_script: line 15: mpirun: nie znaleziono polecenia

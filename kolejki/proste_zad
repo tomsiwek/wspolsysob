@@ -1,0 +1,17 @@
+#!/bin/bash -l
+#SBATCH -N 2 
+#SBATCH -n 56
+#SBATCH --mem 1Gb
+#SBATCH --time=0:10:00 
+#SBATCH -A g66-21
+#SBATCH -p topola
+#SBATCH --reservation=cwiczenia
+
+module load common/mpi/mpich
+
+pwd
+date
+
+mpirun hostname > notes.txt
+
+env

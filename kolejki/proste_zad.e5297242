@@ -1,0 +1,2 @@
+ERROR: Unable to locate a modulefile for 'mpi'
+/var/spool/slurmd/job5297242/slurm_script: line 15: mpirun: nie znaleziono polecenia

@@ -1,0 +1,178 @@
+/icm/home/ts417377/wspolsysob
+śro, 16 paź 2019, 16:19:46 CEST
+t11-14
+t11-14
+t11-14
+t11-14
+t11-14
+t11-14
+t11-14
+t11-14
+t11-14
+t11-14
+MKLROOT=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mkl
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+SLURM_NODELIST=t11-[14-15]
+REMOTEHOST=gw-lab.icm.edu.pl
+MANPATH=/apps/common/mpi/mpich/3.2/INTEL/share/man:/apps/compilers/intel/psxe2018u1/man/common:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mpi/man:/apps/compilers/intel/psxe2018u1/documentation_2018/en/debugger//gdb-ia/man/:/apps/compilers/intel/psxe2018u1/documentation_2018/en/debugger//gdb-igfx/man/:/usr/local/share/man:/usr/share/man/overrides:/usr/share/man/en:/usr/share/man/pl:/usr/share/man:
+SLURM_JOB_NAME=proste_zad
+SLURMD_NODENAME=t11-14
+SLURM_TOPOLOGY_ADDR=SwTopola.Swt10-12.t11.t11-14
+HOSTNAME=t11-14
+_LMFILES__modshare=/apps/modulefiles/common/compilers/intel/2018/update1:1:/apps/modulefiles/common/mpi/mpich/3.2:1
+SLURM_PRIO_PROCESS=0
+PLG_GROUPS_STORAGE=/icm/hydra/groups
+INTEL_LICENSE_FILE=/apps/compilers/intel/licences:/opt/intel/licenses
+IPPROOT=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/ipp
+SLURM_NODE_ALIASES=(null)
+GRID_ENV_LOCATION=/usr/libexec
+SHELL=/bin/tcsh
+TERM=xterm-256color
+HOST=hpc
+HISTSIZE=1000
+SLURM_JOB_QOS=hpc
+GDBSERVER_MIC=/apps/compilers/intel/psxe2018u1/debugger_2018/gdb/targets/intel64/x200/bin/gdbserver
+TMPDIR=/tmp
+SLURM_TOPOLOGY_ADDR_PATTERN=switch.switch.switch.node
+SSH_CLIENT=213.135.59.4 49618 22
+LIBRARY_PATH=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/ipp/lib/intel64:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/daal/lib/intel64_lin:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/daal/../tbb/lib/intel64_lin/gcc4.4
+MPI_USE_OMP=0
+MPI_OPENMPI_PATH=/mnt/software/common/mpi/openmpi/1.6.5
+MPI_SSH_HOST_BASED_AUTH=no
+VO_OPS_DEFAULT_SE=se.grid.icm.edu.pl
+PLG_USER_STORAGE2=/icm/hydra/temp/ts417377
+DPM_HOST=se.grid.icm.edu.pl
+GT_PROXY_MODE=old
+PLG_GROUPS_SHARED=/icm/hydra/groups
+QTDIR=/usr/lib64/qt-3.3
+MODULES_USE_COMPAT_VERSION=0
+QTINC=/usr/lib64/qt-3.3/include
+SSH_TTY=/dev/pts/24
+GRIDMAPDIR=/etc/grid-security/gridmapdir
+SLURM_NNODES=2
+USER=ts417377
+GROUP=G66-21
+LD_LIBRARY_PATH=/apps/common/mpi/mpich/3.2/INTEL/lib:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/lib:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mpi/mic/lib:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/ipp/lib/intel64:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4:/apps/compilers/intel/psxe2018u1/debugger_2018/iga/lib:/apps/compilers/intel/psxe2018u1/debugger_2018/libipt/intel64/lib:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/daal/lib/intel64_lin:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/daal/../tbb/lib/intel64_lin/gcc4.4
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lz=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.bz=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.rar=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+PSTLROOT=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/pstl
+LCG_LOCATION=/usr
+VO_CMS_SW_DIR=/cvmfs/cms.cern.ch
+VO_DTEAM_SW_DIR=/mnt/software/dteam
+ENV=/usr/share/Modules/init/profile.sh
+CPATH=/apps/common/mpi/mpich/3.2/INTEL/include:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/ipp/include:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mkl/include:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/pstl/include:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/tbb/include:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/tbb/include:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/daal/include
+SLURM_JOBID=5297379
+HOSTTYPE=x86_64-linux
+VO_LHCB_DEFAULT_SE=se.grid.icm.edu.pl
+SLURM_NTASKS=56
+VO_OPS_SW_DIR=/mnt/software/ops
+NLSPATH=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64/locale/%l_%t/%N:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin/locale/%l_%t/%N:/apps/compilers/intel/psxe2018u1/debugger_2018/gdb/intel64/share/locale/%l_%t/%N
+TMPDIR_SHARED=/icm/hydra/temp/ts417377
+VO_BIOMED_DEFAULT_SE=se.grid.pl
+SLURM_TASKS_PER_NODE=28(x2)
+PATH=/apps/common/mpi/mpich/3.2/INTEL/bin:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/bin/intel64:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/bin:/bin:/usr/lib64/qt-3.3/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/slurm/current/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/slurm/current/bin:/usr/local/slurm/current/bin/:/icm/home/ts417377/bin
+MAIL=/var/spool/mail/ts417377
+DPNS_HOST=se.grid.icm.edu.pl
+SLURM_JOB_ID=5297379
+TBBROOT=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/tbb
+MPI_OPENMPI_VERSION=1.6.5
+VO_CMS_DEFAULT_SE=se.grid.icm.edu.pl
+VO_DTEAM_DEFAULT_SE=se.grid.icm.edu.pl
+SLURM_JOB_USER=ts417377
+PWD=/icm/home/ts417377/wspolsysob
+_LMFILES_=/apps/modulefiles/common/compilers/intel/2018/update1:/apps/modulefiles/common/mpi/mpich/3.2
+SITE_GIIS_URL=apel.grid.icm.edu.pl
+CUDA_VISIBLE_DEVICES=NoDevFiles
+BLKID_FILE=/etc/blkid/blkid.tab
+GDB_CROSS=/apps/compilers/intel/psxe2018u1/debugger_2018/gdb/intel64/bin/gdb-ia
+LANG=pl_PL.UTF-8
+MODULEPATH=/apps/modulefiles
+SLURM_JOB_UID=8307
+LOADEDMODULES=common/compilers/intel/2018/update1:common/mpi/mpich/3.2
+SLURM_NODEID=0
+CPATH_modshare=/apps/common/mpi/mpich/3.2/INTEL/include:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mkl/include:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/tbb/include:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/ipp/include:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/daal/include:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/pstl/include:1
+TMPSHARED=/mnt/lustre/temp/ts417377
+MPI_DEFAULT_FLAVOUR=openmpi
+MYPROXY_SERVER=myproxy.cern.ch
+VO_VO_PLGRID_PL_DEFAULT_SE=se.grid.icm.edu.pl
+SLURM_SUBMIT_DIR=/icm/home/ts417377/wspolsysob
+SLURM_TASK_PID=17571
+SLURM_NPROCS=56
+DAALROOT=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/daal
+SLURM_CPUS_ON_NODE=28
+MPM_LAUNCHER=/apps/compilers/intel/psxe2018u1/debugger_2018/mpm/mic/bin/start_mpm.sh
+HISTCONTROL=ignoredups
+SLURM_PROCID=0
+ENVIRONMENT=BATCH
+INTEL_PYTHONHOME=/apps/compilers/intel/psxe2018u1/debugger_2018/python/intel64/
+GLEXEC_LOCATION=/usr
+VO_LHCB_SW_DIR=/cvmfs/lhcb.cern.ch
+SLURM_JOB_NODELIST=t11-[14-15]
+PATH_modshare=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/bin:1:/usr/bin:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/bin/intel64:1:/icm/home/ts417377/bin:1:/usr/local/bin:1:/usr/share/Modules/bin:1:/usr/local/slurm/current/bin/:1:/bin:1:/sbin:1:/usr/sbin:1:/apps/common/mpi/mpich/3.2/INTEL/bin:1:/usr/local/sbin:1:/usr/lib64/qt-3.3/bin:1:/usr/local/slurm/current/bin:1
+GLITE_LOCATION_VAR=/var
+HOME=/icm/home/ts417377
+SHLVL=3
+SLURM_LOCALID=0
+OSTYPE=linux
+SLURM_JOB_GID=2000
+SLURM_JOB_CPUS_PER_NODE=28(x2)
+SLURM_CLUSTER_NAME=hydra
+MANPATH_modshare=/apps/compilers/intel/psxe2018u1/documentation_2018/en/debugger//gdb-ia/man/:1:/apps/compilers/intel/psxe2018u1/documentation_2018/en/debugger//gdb-igfx/man/:1:/usr/local/share/man:1:/usr/share/man/overrides:1:/usr/share/man/en:1::1:/usr/share/man/pl:1:/apps/common/mpi/mpich/3.2/INTEL/share/man:1:/apps/compilers/intel/psxe2018u1/man/common:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mpi/man:1:/usr/share/man:1
+SLURM_GTIDS=0
+SLURM_SUBMIT_HOST=hpc
+GLITE_ENV_SET=TRUE
+SLURM_JOB_RESERVATION=cwiczenia
+SLURM_JOB_PARTITION=topola
+VENDOR=unknown
+BASH_ENV=/usr/share/Modules/init/bash
+MODULERCFILE=/apps/common/modules/etc/rc
+LCG_GFAL_INFOSYS=bdii.grid.cyf-kr.edu.pl:2170
+LOGNAME=ts417377
+MACHTYPE=x86_64
+LD_LIBRARY_PATH_modshare=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/daal/../tbb/lib/intel64_lin/gcc4.4:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/ipp/lib/intel64:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mpi/mic/lib:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/tbb/lib/intel64/gcc4.4:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin:1:/apps/compilers/intel/psxe2018u1/debugger_2018/libipt/intel64/lib:1:/apps/compilers/intel/psxe2018u1/debugger_2018/iga/lib:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64:1:/apps/common/mpi/mpich/3.2/INTEL/lib:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/daal/lib/intel64_lin:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin:1:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/lib:1
+I2G_MPI_START=/usr/local/bin/mpi-stop
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+CLASSPATH=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/lib/mpi.jar:/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/daal/lib/daal.jar
+VO_BIOMED_SW_DIR=/mnt/software/biomed
+GPU_DEVICE_ORDINAL=NoDevFiles
+SLURM_JOB_ACCOUNT=g66-21
+SSH_CONNECTION=213.135.59.4 49618 213.135.51.79 22
+SLURM_JOB_NUM_NODES=2
+MODULESHOME=/usr/share/Modules
+PKG_CONFIG_PATH=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mkl/bin/pkgconfig
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LOADEDMODULES_modshare=common/mpi/mpich/3.2:1:common/compilers/intel/2018/update1:1
+INFOPATH=/apps/compilers/intel/psxe2018u1/documentation_2018/en/debugger//gdb-ia/info/:/apps/compilers/intel/psxe2018u1/documentation_2018/en/debugger//gdb-igfx/info/
+PLG_USER_STORAGE=/icm/home/ts417377
+GLITE_LOCATION=/usr
+VO_VO_PLGRID_PL_SW_DIR=/mnt/software/plgrid
+SITE_NAME=ICM
+SLURM_MEM_PER_NODE=1024
+G_BROKEN_FILENAMES=1
+I_MPI_ROOT=/apps/compilers/intel/psxe2018u1/compilers_and_libraries_2018.1.163/linux/mpi
+BASH_FUNC_module()=() {  eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash $*`
+}
+BASH_FUNC_switchml()=() {  typeset swfound=1;
+ if [ "$MODULES_USE_COMPAT_VERSION" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+_=/bin/env
