@@ -10,6 +10,7 @@
 
 double* sin_vals;
 double* cos_vals;
+<<<<<<< HEAD
 double** sin_vals_mat;
 double** cos_vals_mat;
 
@@ -30,6 +31,31 @@ void init_sin_cos_table(int n, int m, double* sin_vals, double* cos_vals, double
             cos_vals_mat[j][i] = tmp*tmp;
         }
     }
+=======
+
+double* init_sin_table(int n)
+{
+    int i;
+    double* sin_vals = (double*) malloc(n*sizeof(double));
+
+    for (i = 0; i < n; i++)
+    {
+        sin_vals[i] = sin(M_PI*(2.0*i+0.5));
+    }
+    return sin_vals;
+}
+
+double* init_cos_table(int n)
+{
+    int i;
+    double* cos_vals = (double*) malloc(n*sizeof(double));
+
+    for (i = 0; i < n; i++)
+    {
+        cos_vals[i] = cos(M_PI*(2.0*i));
+    }
+    return cos_vals;
+>>>>>>> 433e8a2838e781928fa20832a9cda402124eca43
 }
 
 double error(double err, double A, double B)
@@ -54,6 +80,7 @@ double modA(int i, int j, double** A)
 	else
     {
 		if (j<1) return 0;
+<<<<<<< HEAD
 		else
         {
             pom = 0.0;
@@ -62,6 +89,15 @@ double modA(int i, int j, double** A)
             pom += A[j-1][i] * sin_vals[i];
             pom +=  A[j+1][i] * cos_vals[i];
             pom *= 0.25;
+=======
+		else{
+			pom = 0;
+			pom += A[j][i+1] * sin_vals[i];
+		        pom += A[j][i-1] * cos_vals[i];
+			pom += A[j-1][i] * sin_vals[i];
+			pom += A[j+1][i] * cos_vals[i];
+                        pom *=  0.25;
+>>>>>>> 433e8a2838e781928fa20832a9cda402124eca43
 		}
 	}
 	return pom;
@@ -128,6 +164,7 @@ Anew = (double**)malloc(n*sizeof(double*));
 for (i=0; i<n; i++)
 	Anew[i] = (double*) malloc(m*sizeof(double));
 
+<<<<<<< HEAD
 sin_vals = (double*) malloc(m*sizeof(double));
 cos_vals = (double*) malloc(m*sizeof(double));
 sin_vals_mat = (double**)malloc(n*sizeof(double*));
@@ -138,6 +175,10 @@ for (i=0; i<n; i++)
 	cos_vals_mat[i] = (double*) malloc(m*sizeof(double));
 }
 init_sin_cos_table(n, m, sin_vals, cos_vals, sin_vals_mat, cos_vals_mat);
+=======
+sin_vals = init_sin_table(MAX(n, m));
+cos_vals = init_cos_table(MAX(n, m));
+>>>>>>> 433e8a2838e781928fa20832a9cda402124eca43
 
 iter_max = 1000;
 iter = 0;
